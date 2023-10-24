@@ -9,12 +9,14 @@ header{
     height: 20%;
     display: flex;
     justify-content: center;
+    background-color: steelblue;
 }
 
 
 .background-image{
     width: 25%;
     height: 100%;
+    border-image: 30px;
 }
 
 .ampoule{
@@ -22,7 +24,11 @@ header{
     height: 10%;
 }
 
-.light{
+.first{
     display: flex;
     flex-direction: column;
+}
+
+.button{
+    width:15%;
 }
