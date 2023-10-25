@@ -42,10 +42,6 @@ main{
 }
 
 
-.ampoule{
-    width: 50%;
-}
-
 .gaz{
     width: 50%;
 }
@@ -54,4 +50,18 @@ main{
     width: 40%;
     height: 100%;
     display: flex;
+}
+
+.ampoule{
+    width: 50%;
+    height: 45%;
+}
+
+.slider {
+    width: 500px;
+    text-align: center;
+}
+
+.slider{
+    margin-left: 100px;
 }

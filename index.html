@@ -14,11 +14,10 @@
         <div class="first">
             <div class="ampoule">
                 <button onclick="changeImage()"><img id="myImage" src="img/ampoule-led-e27-a-filaments-800-lumens.jpg" alt="Image" width="400" height="350"></button>
-                
             </div>
             <div class="door">
-                <img id="myImage_3" src="img/porte-fermee-blanche-isolee_1284-43080.avif" alt="Image" width="300">
-                <input type="range" id="openSliderr" min="0" max="1" step="0.1" value="1" oninput="adjustImage(this.value)">
+                <img src="img/porte-fermee-blanche-isolee_1284-43080.avif" id="slider-image">
+                <input class="slider" type="range" min="1" max="3" value="1" id="image-slider">
             </div>
         </div>
         <div class="second">
