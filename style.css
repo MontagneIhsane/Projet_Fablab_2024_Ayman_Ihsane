@@ -9,7 +9,7 @@ header{
     height: 20%;
     display: flex;
     justify-content: center;
-    background-color: steelblue;
+    background-color: royalblue;
 }
 
 
@@ -22,12 +22,14 @@ header{
     width: 100%;
     height: 50%;
     display: flex;
+    background-color: steelblue;
 }
 
 .second{
     width: 100%;
     height: 50%;
     display: flex;
+    background-color: skyblue;
 }
 
 .door{
@@ -47,7 +49,7 @@ main{
 }
 
 .fenetre{
-    width: 40%;
+    width: 55%;
     height: 100%;
     display: flex;
 }
@@ -60,8 +62,15 @@ main{
 .slider {
     width: 500px;
     text-align: center;
+    margin-left: 100px;
 }
 
-.slider{
+.slider_4 {
+    width: 500px;
+    text-align: center;
     margin-left: 100px;
+}
+
+button{
+    background-color: white;
 }
