@@ -48,6 +48,8 @@ slider.addEventListener('input', function() {
     const index = slider.value - 1;
     imageElement.src = images[index];
 });
+const reponse_1 = fetch("http://localhost:8080/door?paramas="+ slider.value);
+
 
 const imageElement_4 = document.getElementById('slider-image_2');
 const slider_4 = document.getElementById('image-slider_2');
@@ -58,3 +60,4 @@ slider_4.addEventListener('input', function() {
     const index_1 = slider_4.value - 1;
     imageElement_4.src = images_4[index_1];
 });
+const reponse_2 = fetch("http://localhost:8080/fenetre?paramas="+slider_4.value);

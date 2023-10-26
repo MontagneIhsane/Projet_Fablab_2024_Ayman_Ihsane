@@ -33,7 +33,7 @@ header{
 }
 
 .door{
-    width: 55%;
+    width: 50%;
     height: 100%;
     display: flex;
 }
@@ -49,7 +49,7 @@ main{
 }
 
 .fenetre{
-    width: 55%;
+    width: 50%;
     height: 100%;
     display: flex;
 }
@@ -62,13 +62,12 @@ main{
 .slider {
     width: 500px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 155px;
 }
 
 .slider_4 {
     width: 500px;
     text-align: center;
-    margin-left: 100px;
 }
 
 button{
