@@ -39,6 +39,19 @@ function changeImage_2() {
     fetch("http://localhost:8080/gaz?on="+etatgaz);
 }
 
+function changeImage_3() {
+    var image = document.getElementById('myImage_5');
+    let etatinperphone = 0;
+    if (image.src.match('img/interphone_coupe.png')) {
+        image.src = 'img/interphone_ouvert.png';
+        etatinterphone = 1;
+    } else {
+        image.src = 'img/interphone_coupe.png';
+        etatinperphone = 0;
+    }
+    fetch("http://localhost:8080/interphone?on="+etatinperphone);
+}
+
 const imageElement = document.getElementById('slider-image');
 const slider = document.getElementById('image-slider');
 
